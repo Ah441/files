@@ -1,0 +1,146 @@
+body{
+    background-image:url("https://eskipaper.com/images/breaking-bad-logo-wallpaper-1.jpg");
+  
+}
+
+#page2{
+  display: grid;
+    grid-template-columns: 4fr 10fr;
+}
+
+ul {
+    position: fixed;
+    width: 15vw;
+    height: 21vw;
+    background-color: #282828;
+    margin: 0px;
+    padding: 0px;
+    border:1px solid green;   
+    text-decoration: underline; 
+}
+
+li:nth-child(odd){
+    background-color: darkgreen;
+}
+
+.liste  {
+    list-style: none;
+    font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-bottom: 80px;
+border-top:1px solid green;
+}
+a{
+    text-decoration: none;
+color: white;
+}
+
+a:hover{
+    color: green;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
+.titre{
+   
+    color: #1F6032 ;
+}
+
+#PersoImportants {
+    float:right;
+    color: limegreen;
+}
+
+#resume{
+
+    text-align: center;
+    font-size: 20px;
+    color: lime;
+}
+@media screen and (max-width: 500px) , (max-height:500px) {
+ul{
+    display: none;
+}
+  }
+  .page{
+   
+    background-color: black;
+    padding: 5px 1px;
+    margin: 5px 10px;
+    border: 1px outset white;
+    border-radius: 5px;
+
+    width: 110px;
+    position:fixed;
+    bottom:0;
+    right:0;
+    
+  }
+  #Noms{
+      Color:white;
+  }
+  #image{
+      height:200px;
+      width:350px;
+  }
+  a:active{
+      color:yellow;
+  }
+  #Bryan{
+      color:yellowgreen;
+      position: absolute;
+      right: 10px;
+      top: 30px;
+      font-size: 17px;
+  }
+  #Aaron{
+    color:yellowgreen;
+    position: absolute;
+    right: 10px;
+    top: 200px;
+    font-size: 17px;
+  }
+  #Acteurs{
+      
+      font-family:Verdana,Tahoma, sans-serif
+  }
+  h3{
+      position: absolute;
+      right: 400px;
+      top: 10px;
+  }
+  h4{
+    position: absolute;
+    right: 400px;
+  }
+th{
+    font-size: 28px;
+    color:lime;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 100px;
+}
+td{
+    font-size: 1em;
+   color:greenyellow ;
+}
+::-webkit-scrollbar{
+    width: 1vw;
+}
+::-webkit-scrollbar-thumb {
+    background: green; 
+  }
+  .source-images {
+    display: flex;
+
+   justify-content: space-between;
+   color: chartreuse;
+  }
+
+  #Succes{
+    
+      font-size: 1em;
+      font-family: Arial, Helvetica, sans-serif;
+      color: lime;
+
+  }
